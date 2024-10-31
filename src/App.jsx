@@ -1,14 +1,16 @@
 import "./App.css";
-import StatefullForm from "./assets/Components/StatefullForm/StatefullForm";
 // import SimpleForm from "./assets/Components/Form/SimpleForm";
+// import StatefullForm from "./assets/Components/StatefullForm/StatefullForm";
+import RefForm from "./assets/Components/RefForm/RefForm";
 
 function App() {
   return (
-    <>
-      <h1 className="text-green-500">Vite + React</h1>
+    <div className="flex flex-col w-7/12 mx-auto justify-center items-center content-center">
+      <h1 className="text-5xl text-green-500"> React Form </h1>
       {/* <SimpleForm></SimpleForm> */}
-      <StatefullForm></StatefullForm>
-    </>
+      {/* <StatefullForm></StatefullForm> */}
+      <RefForm></RefForm>
+    </div>
   );
 }
 
